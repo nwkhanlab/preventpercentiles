@@ -20,7 +20,7 @@ return_percentile_30yr_HF(age, sex, risk)
 *risk*: Absolute 30-year risk for CVD, ASCVD, or HF calculated with the PREVENT equations, numeric. 
 
 **Notes**  
-Since all individuals absolute risk estimates >98th percentile will be at the 99th percentile, the 99th percentile is set at a risk of 100%.   
+Since all individuals with absolute risk estimates >98th percentile will be at the 99th percentile, the 99th percentile is set at a risk of 100%.   
 
 **Please see the following links for more details about PREVENT**  
 [AHA PREVENT Online Calculator](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator)  
