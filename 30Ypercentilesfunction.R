@@ -1,9 +1,6 @@
+## PLEASE READ THROUGH READ.ME FILE FOR IMPORTANT INFORMATION (https://github.com/nwkhanlab/preventpercentiles)
 
-## 1. Download "prevent30Ypercentiles.xlsx" from GitHub (github.com/nwkhanlab/preventpercentiles)
-## 2. Save "prevent30Ypercentiles.xlsx" in working directory
-## 3. Load all functions below into R 
-## 4. Calculate percentiles using return_percentile_30yr_CVD, return_percentile_30yr_ASCVD, return_percentile_30yr_HF
-## Note: Since all individuals absolute risk estimates >98th percentile will be at the 99th percentile, the 99th percentile is set at 100%. 
+## The following are base functions that will be wrapped into return_percentile_30yr_CVD, return_percentile_30yr_ASCVD, return_percentile_30yr_HF
 
 percentile_function <- function(risk, percentiles) {
   upper_bound <- min(which(percentiles$risk >= risk))
@@ -28,6 +25,8 @@ select_columns_30yr <- function(age, sex, outcome) {if(age>=30 & age<=59) {
   return(percentiles)
 }}
 
+## The following are the functions that you should use to calculate percentiles. 
+
 return_percentile_30yr_CVD <- function(age, sex, risk) {
   percentile_function(risk, select_columns_30yr(age, sex, "CVD"))
 }
@@ -39,3 +38,7 @@ return_percentile_30yr_ASCVD <- function(age, sex, risk) {
 return_percentile_30yr_HF <- function(age, sex, risk) {
   percentile_function(risk, select_columns_30yr(age, sex, "HF"))
 }
+
+## Please ensure that variables for age, sex, and 30-year risk are available in your dataset. 
+## Age, sex, and risk should all be numeric. Age should be 30-59 years, sex should be coded 1==female or 0==male. 
+## Since all individuals with absolute risk estimates >98th percentile will be at the 99th percentile, the 99th percentile is set at 100%. 
