@@ -1,6 +1,6 @@
 ## PLEASE READ THROUGH READ.ME FILE FOR IMPORTANT INFORMATION (https://github.com/nwkhanlab/preventpercentiles)
 
-## The following are base functions that will be wrapped into return_percentile_30yr_CVD, return_percentile_30yr_ASCVD, return_percentile_30yr_HF
+## The following are base functions that will be wrapped into return_percentile_30yr_CVD, return_percentile_30yr_ASCVD, and return_percentile_30yr_HF.
 
 percentile_function <- function(risk, percentiles) {
   upper_bound <- min(which(percentiles$risk >= risk))
