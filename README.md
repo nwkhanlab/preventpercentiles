@@ -4,7 +4,7 @@ The Predicting Risk of cardiovascular disease EVENTs (PREVENT) equations were de
 
 **Steps**
 1. Ensure that variables for age, sex, and 30-year PREVENT risk estimates are available in your dataset. Absolute 30-year risk estimates can be calculated using the "AHAprevent" code (available for R and STATA) from the [American Heart Association](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator). For access to this code, please agree to the [Terms & Conditions](https://www.jotform.com/240774577352161). 
-2. Download "prevent30Ypercentiles.xlsx" from nwkhanlab/preventpercentiles.
+2. Download "prevent30Ypercentiles.xlsx" from *nwkhanlab/preventpercentiles*.
 3. Save "prevent30Ypercentiles.xlsx" in your working directory.
 4. Load all functions from "30Ypercentiles.R" from *nwkhanlab/preventpercentiles* into your global environment.
 5. Calculate 30-year risk percentile using the functions **return_percentile_30yr_CVD** for 30-year CVD risk, **return_percentile_30yr_ASCVD** for 30-year ASCVD risk, or **return_percentile_30yr_HF** for 30-year HF risk.
