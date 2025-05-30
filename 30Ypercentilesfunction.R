@@ -1,5 +1,9 @@
 ## PLEASE READ THROUGH READ.ME FILE FOR IMPORTANT INFORMATION (https://github.com/nwkhanlab/preventpercentiles)
 
+## The following package is used to read the .xlsx file into R
+install.packages("readxl")
+library(readxl)
+
 ## The following are base functions that will be wrapped into return_percentile_30yr_CVD, return_percentile_30yr_ASCVD, and return_percentile_30yr_HF.
 
 percentile_function <- function(risk, percentiles) {
