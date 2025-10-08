@@ -26,6 +26,6 @@ Since all individuals with absolute risk estimates >98th percentile will be at t
 [AHA PREVENT Online Calculator](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator)  
 [Development and Validation of the AHA PREVENT equations](https://doi.org/10.1161/circulationaha.123.067626)  
 [AHA Scientific Statement on the PREVENT equations](https://doi.org/10.1161/CIR.0000000000001191)  
-[Academic access to the PREVENT statistical software code (R or STATA)](https://www.jotform.com/240774577352161)  
+[Open source access to the PREVENT statistical software code](https://www.jotform.com/240774577352161)  
 
 
