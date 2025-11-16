@@ -1,6 +1,6 @@
 # PREVENT percentiles for 30-year risk estimates
 
-The Predicting Risk of cardiovascular disease EVENTs (PREVENT) equations were developed in 2023 by the American Heart Association to predict 10-year and 30-year risk for total cardiovascular disease (CVD), atherosclerotic CVD (ASCVD), or heart failure (HF). This code can be used to calculate age- and sex-standardized percentiles of risk based on the US population from PREVENT 30-year risk estimates for CVD, ASCVD, or HF among individuals aged 30 to 59 years. Details on the methodology used to derive standardized risk percentiles can be found [*here*](https://doi.org/10.1016/j.jacc.2025.09.1509). An interactive online tool is also available at https://nwkhanlab.shinyapps.io/percentiles/.  
+The Predicting Risk of cardiovascular disease EVENTs (PREVENT) equations were developed in 2023 by the American Heart Association to predict 10-year and 30-year risk for total cardiovascular disease (CVD), atherosclerotic CVD (ASCVD), or heart failure (HF). This code can be used to calculate age- and sex-standardized percentiles of risk based on the US population from PREVENT 30-year risk estimates for CVD, ASCVD, or HF among individuals aged 30 to 59 years. Details on the methodology used to derive standardized risk percentiles can be found [here](https://doi.org/10.1016/j.jacc.2025.09.1509). An interactive online tool is also available at https://nwkhanlab.shinyapps.io/percentiles/.  
 
 **Steps**
 1. Ensure that variables for age, sex, and 30-year PREVENT risk estimates are available in your dataset. Absolute 30-year risk estimates can be calculated using the "AHAprevent" open source code (available for R and STATA) from the [American Heart Association](https://professional.heart.org/en/guidelines-and-statements/prevent-risk-calculator). For access to this code, please agree to the [Terms & Conditions](https://www.jotform.com/240774577352161). 
@@ -23,6 +23,7 @@ return_percentile_30yr_HF(age, sex, risk)
 Since all individuals with absolute risk estimates >98th percentile will be at the 99th percentile, the 99th percentile is set at a risk of 100%.   
 
 **Please see the following links for more details about PREVENT**  
+[Age- and Sex-Specific Population-Based Percentiles of 30-Year Cardiovascular Disease Risk with the PREVENT Equations](https://doi.org/10.1016/j.jacc.2025.09.1509)  
 [AHA PREVENT Online Calculator](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator)  
 [Development and Validation of the AHA PREVENT equations](https://doi.org/10.1161/circulationaha.123.067626)  
 [AHA Scientific Statement on the PREVENT equations](https://doi.org/10.1161/CIR.0000000000001191)  
