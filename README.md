@@ -24,7 +24,7 @@ Since all individuals with absolute risk estimates >98th percentile will be at t
 
 **Please see the following links for more details about PREVENT**  
 [Age- and Sex-Specific Population-Based Percentiles of 30-Year Cardiovascular Disease Risk with the PREVENT Equations](https://doi.org/10.1016/j.jacc.2025.09.1509)  
-[AHA PREVENT Online Calculator](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator)  
+[AHA PREVENT Online Calculator](https://professional.heart.org/en/guidelines-and-statements/about-prevent-calculator)  
 [Development and Validation of the AHA PREVENT equations](https://doi.org/10.1161/circulationaha.123.067626)  
 [AHA Scientific Statement on the PREVENT equations](https://doi.org/10.1161/CIR.0000000000001191)  
 [Open source access to the PREVENT statistical software code](https://www.jotform.com/240774577352161)  
